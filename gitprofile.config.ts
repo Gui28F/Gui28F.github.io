@@ -1,4 +1,6 @@
 // gitprofile.config.ts
+
+
 const CONFIG = {
   github: {
     username: 'Gui28F', // Your GitHub org/user name. (This is the only required config)
@@ -8,7 +10,7 @@ const CONFIG = {
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/portfolio',
+  base: '/gitprofile/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -74,8 +76,7 @@ const CONFIG = {
     email: 'guidcf28@gmail.com',
   },
   resume: {
-    fileUrl:
-    "./src/data/CV-Guilherme Fernades.pdf", // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl:'', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Java',

@@ -441,3 +441,8 @@ interface Config {
 }
 
 declare const CONFIG: Config;
+
+declare module "*.pdf" {
+  const value: any;
+  export = value;
+}

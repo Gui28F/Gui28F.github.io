@@ -150,4 +150,4 @@ ${JSON.stringify(p,null,4)}`);function Ye(){Ie&&(G={tagName:"",hrefValue:"",open
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,enablePWA:!0};la.createRoot(document.getElementById("root")).render(c.jsx(Je.StrictMode,{children:c.jsx(d7,{config:f7})}));
+    >GitProfile</a>`,enablePWA:!0};la.createRoot(document.getElementById("root")).render(c.jsx(Je.StrictMode,{children:c.jsx(d7,{config:f7})}));

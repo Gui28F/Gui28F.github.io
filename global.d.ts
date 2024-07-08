@@ -359,6 +359,8 @@ interface Config {
    */
   github: Github;
 
+  bibliography?: string;
+
   /**
    * Vite's base url
    */

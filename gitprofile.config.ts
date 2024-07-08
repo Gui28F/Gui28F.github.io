@@ -43,7 +43,7 @@ const CONFIG = {
           CYK algorithm.",
           imageUrl:
             'https://ocaml.org/_/MWIyY2ZmMWM5YzdkYWNmYWI4NGQ0MDBjOGFiZTYxOTg/ocaml_org_social_media.png',
-          link: 'https://example.com',
+          link: 'http://ctp.di.fct.unl.pt/FACTOR/OFLAT/',
         },
       ],
     },

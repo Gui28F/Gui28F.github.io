@@ -10,7 +10,7 @@ const CONFIG = {
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -50,7 +50,10 @@ const CONFIG = {
   },
   seo: {
     title: 'Portfolio of Guilherme Fernandes',
-    description: "",
+    description: "I am currently pursuing my master's degree in Computer Science, with a thesis \
+    centered on coherent image generation, co-oriented by Google. I have a deep enthusiasm for \
+    distributed systems and artificial intelligence, especially in the areas of \
+    natural language processing (NLP), and computer vision.",
     imageURL: '',
   },
   social: {
@@ -97,6 +100,7 @@ const CONFIG = {
     'Go',
     'Rust',
     'Erlang',
+    'JavaScript',
   ],
   experiences: [
     {
@@ -232,7 +236,7 @@ const CONFIG = {
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >GitProfile</a>`,
 
   enablePWA: true,
 };

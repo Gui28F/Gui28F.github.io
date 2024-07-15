@@ -31,7 +31,7 @@ const CONFIG = {
       manual: {
         // Properties for manually specifying projects
         projects: ['vladbug/CookingBot', 'Gui28F/Dstributed-Social-Network', 'Gui28F/RealTimeMsgApp', 'Gui28F/CPU-Scheduler-Simulation', 'Gui28F/Gravity-field-simulation',
-          'Gui28F/Simple-File-System'
+          'Gui28F/Simple-File-System', 'Gui28F/Histogram_Equalization'
         ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },

@@ -90,6 +90,7 @@ const CONFIG = {
     'C',
     'C++',
     'CUDA',
+    'Anaconda',
     'Windows Azure',
     'Microsoft Azure Machine Learning',
     'Microsoft Bot Framework',
@@ -126,6 +127,12 @@ const CONFIG = {
       degree: "Master's degree, Computer Science and Engineering",
       from: "Aug 2023",
       to: "Present"
+    },
+    {
+      institution: "Technische Universität Darmstadt",
+      degree: "ACM Europe Summer School on Distributed and Replicated Environments (DARE)",
+      from: "Sep 2024",
+      to: "Sep 2024"
     },
     {
       institution: "NOVA School of Science and Technology",

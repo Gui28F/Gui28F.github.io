@@ -11,10 +11,12 @@ const CONFIG = {
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
   base: '/',
-  bibliography: "I am currently pursuing my master's degree in Computer Science, with a thesis \
-    centered on coherent image generation, co-oriented by Google. I have a deep enthusiasm for \
-    distributed systems and artificial intelligence, especially in the areas of \
-    natural language processing (NLP), and computer vision.", // if empty shows github bibliography
+  bibliography: "I am a soon-to-be Master’s graduate in Computer Science, " +
+    "co-oriented by Google, with a thesis focused on image generation, where I " +
+    "explore NLP techniques to generate coherent sequences of images. I am a " +
+    "passionate machine learning and deep learning enthusiast, constantly " +
+    "exploring new techniques and applications in AI to push the boundaries " +
+    "of what machines can create.", // if empty shows github bibliography
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -80,7 +82,7 @@ const CONFIG = {
     email: 'guidcf28@gmail.com',
   },
   resume: {
-    fileUrl:'', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl:'https://drive.google.com/file/d/1gaurW7nuLqrynW6c6svOhqffGYuksDmB/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Java',
@@ -106,11 +108,45 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'Google',
+      position: 'Scientific Researcher - Partnership',
+      from: 'June 2024',
+      to: 'Present',
+      companyLink: 'https://research.google/',
+      location: 'Lisbon, Portugal · Hybrid',
+      description: `Investigating how natural language can drive multimodal generative models to produce not just single images, but coherent sequences of visuals that capture narrative flow and contextual consistency.
+      For my Master’s thesis, in collaboration with a research team at Google, I explore how to transform natural text into structured representations that diffusion-based models such as LDMs and DiTs can interpret. I also adapt NLP-inspired decoding strategies to guide generation across multiple frames, ensuring continuity and coherence.
+      The approach is tested across domains such as DIYs, Recipes, and Visual Storytelling, evaluated using human annotations and automatic metrics based on CLIP and DINO, as well as LLM-based judges.
+      My research aims to advance multimodal AI systems that connect language and vision in richer, context-aware ways, enabling applications in creative media, education, prototyping, and interactive systems.`,
+    },
+    {
+      company: 'NOVA Laboratory for Computer Science and Informatics',
+      position: 'Graduate Student Researcher',
+      from: 'June 2024',
+      to: 'Present',
+      companyLink: 'https://nova-lincs.di.fct.unl.pt/',
+      location: 'Lisbon, Portugal · Hybrid',
+      description: `Researching at the intersection of NLP, vision, and generative AI to bridge the gap between natural language and coherent multimodal generation.`,
+    },
+    {
+      company: 'Technische Universität Darmstadt',
+      position: 'Participant — ACM Europe Summer School on Distributed and Replicated Environments (DARE)',
+      from: 'September 2024',
+      to: 'September 2024',
+      companyLink: 'https://www.tu-darmstadt.de/',
+      location: 'Darmstadt, Hesse, Germany',
+      description: `Participated in the ACM Europe Summer School on Distributed and Replicated Environments (DARE) 2024, hosted in Darmstadt, Germany.
+      The program explored advanced concepts in distributed systems, blending theoretical learning and practical application.
+      Covered topics included consistency models, verification strategies, and programming approaches for distributed applications.`,
+    },
+    {
       company: 'KPMG Portugal',
-      position: 'AI intern',
+      position: 'Artificial Intelligence Intern',
       from: 'March 2023',
       to: 'July 2023',
       companyLink: 'https://kpmg.com/pt/pt/home.html',
+      location: 'Lisbon, Portugal · Hybrid',
+      description: `Worked as an AI intern developing and deploying intelligent systems. Engaged in projects involving C#, artificial intelligence, and data-driven solutions.`,
     },
   ],
   certifications: [
@@ -139,18 +175,18 @@ const CONFIG = {
       degree: "Bachelor's degree, Computer Science and Engineering",
       from: "Sep 2020",
       to: "Jul 2023",
-      grade: "Grade: 18/20"
+      grade: "Grade: 18/20 (ECTS: A)"
     },
   ],
   publications: [
     {
-       title: 'Latent Beam Diffusion Models for Decoding Image Sequences',
+       title: 'Latent Beam Diffusion Models for Generating Visual Sequences',
        conferenceName: '',
        journalName: '',
        authors: 'Guilherme Fernandes, Vasco Ramos, Regev Cohen, Idan Szpektor, João Magalhães',
        link: 'https://arxiv.org/abs/2503.20429',
        description:
-        'While diffusion models excel at generating high-quality images from text prompts, they struggle with visual consistency in image sequences. Existing methods generate each image independently, leading to disjointed narratives — a challenge further exacerbated in non-linear storytelling, where scenes must connect beyond adjacent frames. We introduce a novel beam search strategy for latent space exploration, enabling conditional generation of full image sequences with beam search decoding. Unlike prior approaches that use fixed latent priors, our method dynamically searches for an optimal sequence of latent representations, ensuring coherent visual transitions. As the latent denoising space is explored, the beam search graph is pruned with a cross-attention mechanism that efficiently scores search paths, prioritizing alignment with both textual prompts and visual context. Human and automatic evaluations confirm that BeamDiffusion outperforms other baseline methods, producing full sequences with superior coherence, visual continuity, and textual alignment.',
+        'While diffusion models excel at generating high-quality images from text prompts, they struggle with visual consistency when generating image sequences. Existing methods generate each image independently, leading to disjointed narratives - a challenge further exacerbated in non-linear storytelling, where scenes must connect beyond adjacent images. We introduce a novel beam search strategy for latent space exploration, enabling conditional generation of full image sequences with beam search decoding. In contrast to earlier methods that rely on fixed latent priors, our method dynamically samples past latents to search for an optimal sequence of latent representations, ensuring coherent visual transitions. As the latent denoising space is explored, the beam search graph is pruned with a cross-attention mechanism that efficiently scores search paths, prioritizing alignment with both textual prompts and visual context. Human and automatic evaluations confirm that BeamDiffusion outperforms other baseline methods, producing full sequences with superior coherence, visual continuity, and textual alignment.',
     }
   ],
   // Display articles from your medium or dev account. (Optional)

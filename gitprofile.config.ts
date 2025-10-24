@@ -129,17 +129,6 @@ const CONFIG = {
       description: `Researching at the intersection of NLP, vision, and generative AI to bridge the gap between natural language and coherent multimodal generation.`,
     },
     {
-      company: 'Technische Universität Darmstadt',
-      position: 'Participant — ACM Europe Summer School on Distributed and Replicated Environments (DARE)',
-      from: 'September 2024',
-      to: 'September 2024',
-      companyLink: 'https://www.tu-darmstadt.de/',
-      location: 'Darmstadt, Hesse, Germany',
-      description: `Participated in the ACM Europe Summer School on Distributed and Replicated Environments (DARE) 2024, hosted in Darmstadt, Germany.
-      The program explored advanced concepts in distributed systems, blending theoretical learning and practical application.
-      Covered topics included consistency models, verification strategies, and programming approaches for distributed applications.`,
-    },
-    {
       company: 'KPMG Portugal',
       position: 'Artificial Intelligence Intern',
       from: 'March 2023',

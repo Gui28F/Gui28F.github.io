@@ -11,7 +11,7 @@ const CONFIG = {
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
   base: '/',
-  bibliography: "I am a soon-to-be Master’s graduate in Computer Science, " +
+  bibliography: "I am a soon-to-be Masters graduate in Computer Science, " +
     "co-oriented by Google, with a thesis focused on image generation, where I " +
     "explore NLP techniques to generate coherent sequences of images. I am a " +
     "passionate machine learning and deep learning enthusiast, constantly " +
@@ -32,8 +32,8 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['vladbug/CookingBot','Gui28F/DefectVision', 'Gui28F/Dstributed-Social-Network', 'Gui28F/CPU-Scheduler-Simulation', 'Gui28F/Gravity-field-simulation',
-          'Gui28F/Simple-File-System', 'Gui28F/Histogram_Equalization'
+        projects: ['vladbug/CookingBot','Gui28F/DefectVision', 'Gui28F/Dstributed-Social-Network',
+          'Gui28F/Simple-File-System', 'Gui28F/Histogram_Equalization', "Gui28F/SCC-Tukano"
         ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },

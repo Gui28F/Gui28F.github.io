@@ -11,12 +11,7 @@ const CONFIG = {
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
   base: '/',
-  bibliography: "I am a soon-to-be Masters graduate in Computer Science, " +
-    "co-oriented by Google, with a thesis focused on image generation, where I " +
-    "explore NLP techniques to generate coherent sequences of images. I am a " +
-    "passionate machine learning and deep learning enthusiast, constantly " +
-    "exploring new techniques and applications in AI to push the boundaries " +
-    "of what machines can create.", // if empty shows github bibliography
+  bibliography: "Software Engineer at freiheit.com focused on full-stack development and building scalable, maintainable production systems. I hold an MSc in Computer Science, co-supervised by Google, where I researched multimodal generation, strengthening my ability to design complex systems and make rigorous trade-offs. Experienced in modern web technologies and distributed systems, I take end-to-end ownership from architecture to deployment and prioritize clean abstractions, pragmatic decisions, and measurable impact.",
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -57,7 +52,7 @@ const CONFIG = {
   seo: {
     title: 'Portfolio of Guilherme Fernandes',
     description: "",
-    imageURL: '',
+    imageURL: 'https://media.licdn.com/dms/image/v2/D4E03AQHduLhXTDvy5Q/profile-displayphoto-scale_400_400/B4EZvHx2vMKcAk-/0/1768583296906?e=1772668800&v=beta&t=RKmF6AyEebxrP3-84VBxTLxKv5xjNXnhFDRsMebT4VQ',
   },
   social: {
     linkedin: 'guilherme-fernandes-a52611204',
@@ -107,6 +102,14 @@ const CONFIG = {
     'JavaScript',
   ],
   experiences: [
+     {
+      company: 'freiheit.com',
+      position: 'Software Engineer',
+      from: 'January 2026',
+      to: 'Present',
+      companyLink: 'https://freiheit.com/',
+      location: 'Lisbon, Portugal · Hybrid',
+    },
     {
       company: 'Google',
       position: 'Scientific Researcher - Partnership',
@@ -115,7 +118,7 @@ const CONFIG = {
       companyLink: 'https://research.google/',
       location: 'Lisbon, Portugal · Hybrid',
       description: `Investigating how natural language can drive multimodal generative models to produce not just single images, but coherent sequences of visuals that capture narrative flow and contextual consistency.
-      For my Master’s thesis, in collaboration with a research team at Google, I explore how to transform natural text into structured representations that diffusion-based models such as LDMs and DiTs can interpret. I also adapt NLP-inspired decoding strategies to guide generation across multiple frames, ensuring continuity and coherence.
+      For my Master's thesis, in collaboration with a research team at Google, I explore how to transform natural text into structured representations that diffusion-based models such as LDMs and DiTs can interpret. I also adapt NLP-inspired decoding strategies to guide generation across multiple frames, ensuring continuity and coherence.
       The approach is tested across domains such as DIYs, Recipes, and Visual Storytelling, evaluated using human annotations and automatic metrics based on CLIP and DINO, as well as LLM-based judges.
       My research aims to advance multimodal AI systems that connect language and vision in richer, context-aware ways, enabling applications in creative media, education, prototyping, and interactive systems.`,
     },

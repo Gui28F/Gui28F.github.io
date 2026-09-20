@@ -77,7 +77,7 @@ const CONFIG = {
     email: 'guidcf28@gmail.com',
   },
   resume: {
-    fileUrl:'https://drive.google.com/file/d/1gaurW7nuLqrynW6c6svOhqffGYuksDmB/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl:'https://drive.google.com/file/d/135yApx4cdRaSGigXJiBkw7MZGjcYzIBN/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Java',
@@ -108,13 +108,13 @@ const CONFIG = {
       from: 'January 2026',
       to: 'Present',
       companyLink: 'https://freiheit.com/',
-      location: 'Lisbon, Portugal · Hybrid',
+      location: 'Lisbon, Portugal · Onsite',
     },
     {
       company: 'Google',
       position: 'Scientific Researcher - Partnership',
       from: 'June 2024',
-      to: 'Present',
+      to: 'Dec 2025',
       companyLink: 'https://research.google/',
       location: 'Lisbon, Portugal · Hybrid',
       description: `Investigating how natural language can drive multimodal generative models to produce not just single images, but coherent sequences of visuals that capture narrative flow and contextual consistency.
@@ -126,7 +126,7 @@ const CONFIG = {
       company: 'NOVA Laboratory for Computer Science and Informatics',
       position: 'Graduate Student Researcher',
       from: 'June 2024',
-      to: 'Present',
+      to: 'Dec 2025',
       companyLink: 'https://nova-lincs.di.fct.unl.pt/',
       location: 'Lisbon, Portugal · Hybrid',
       description: `Researching at the intersection of NLP, vision, and generative AI to bridge the gap between natural language and coherent multimodal generation.`,
@@ -154,7 +154,8 @@ const CONFIG = {
       institution: "NOVA School of Science and Technology",
       degree: "Master's degree, Computer Science and Engineering",
       from: "Aug 2023",
-      to: "Present"
+      to: "Dec 2025",
+      grade: "Grade: 18/20 (ECTS: A) || Thesis grade: 20/20",
     },
     {
       institution: "Technische Universität Darmstadt",
@@ -172,8 +173,17 @@ const CONFIG = {
   ],
   publications: [
     {
+       title: 'Order Matters: LVLMs as Judges for Temporal Reasoning in Image Sequences',
+       conferenceName: 'ACM Multimedia 2026',
+       journalName: '',
+       authors: 'Martina Ianaro, Guilherme Fernandes, Maurizio Gabbrielli, Joao Magalhaes',
+       link: 'https://arxiv.org/pdf/2608.10908',
+       description:
+        'As generative multimedia evolves from static image synthesis to complex, interleaved visual narratives, a foundational bottleneck has emerged: the judgment crisis. While human perception naturally synthesizes the temporal and logical flow of a story, automated evaluation systems remain largely “blind” to sequential continuity, often failing to distinguish between a coherent narrative and a semantically shuffled or contradictory sequence. This work identifies a critical structural gap in current multimodal evaluation paradigms, arguing that the reliance on Large Vision-Language Models (LVLMs) as judges is fundamentally limited by architectural biases. Our analysis reveals a profound performance dichotomy: while models may appear competent in isolated pointwise scoring, they suffer a catastrophic collapse when required to perform pair- wise discrimination of temporal order. We demonstrate that this is not merely a data-scarcity issue but a structural one. Through a series of diagnostic probes, we uncover systematic positional asymmetries, specifically primacy and recency effects, where a model’s judgment of a story is dictated more by the placement of a frame than its semantic consistency. These biases, potentially rooted in causal masking and rotary embeddings, suggest that current transformer-based judges are inherently ill-equipped for long-form visual reasoning. By exposing these “blind spots,” we challenge the multimedia community to move beyond snapshot- centric metrics and instead pioneer Temporally-Aware Evaluation paradigms that treat visual sequences as unified logical structures rather than unordered collections of frames.'
+    },
+    {
        title: 'Latent Beam Diffusion Models for Generating Visual Sequences',
-       conferenceName: '',
+       conferenceName: 'EMNLP 2026',
        journalName: '',
        authors: 'Guilherme Fernandes, Vasco Ramos, Regev Cohen, Idan Szpektor, João Magalhães',
        link: 'https://arxiv.org/abs/2503.20429',
